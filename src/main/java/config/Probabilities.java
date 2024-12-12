@@ -8,11 +8,11 @@ import java.util.Map;
 public class Probabilities {
 
     public static Double P_S1 = 0.2;
-    public static Double P_S2 = 0.4;
+    public static Double P_S2 = 0.2;
     public static Double P_S3 = 0.1;
-    public static Double P_S4 = 0.3;
+    public static Double P_S4 = 0.5;
 
-    public static String sequence = "s4 s3 s2 s4 s2 s2 s1";
+    public static String sequence = "s2 s1 s3 s1 s2 s4 s3";
 
     public static Map<String, Double> getProbabilities() {
         Map<String, Double> probs = new HashMap<>();

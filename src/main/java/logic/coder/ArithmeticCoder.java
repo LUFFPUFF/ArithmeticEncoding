@@ -78,7 +78,7 @@ public class ArithmeticCoder {
         double F_k = 0.0;
         double G_k = 1.0;
 
-        String[] headers = new String[]{"Шаг k", "F_k", "G_k", "Гипотеза s_i", "q(s_i)", "Сравнение", "Решение", "Решение s_i", "p(s_i)"};
+        String[] headers = new String[]{"Шаг k", "F_k", "G_k", "Гипотеза s_i", "q(s_i)", "Сравнение Fk + qkGk", "Решение", "Решение s_i", "p(s_i)"};
         List<String[]> rows = new ArrayList<>();
 
         rows.add(new String[]{"0", "", "", "C = " + codeWord, "", "X = " + String.format("%.8f", X), "", "", ""});
